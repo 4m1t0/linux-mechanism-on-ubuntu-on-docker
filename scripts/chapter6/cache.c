@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <err.h>
 
-#define CACHE_LINE_SIZE	64
+#define CACHE_LINE_SIZE	32
 #define NLOOP		(4*1024UL*1024*1024)
 #define NSECS_PER_SEC	1000000000UL
 

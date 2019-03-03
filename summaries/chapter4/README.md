@@ -207,6 +207,7 @@ root@84ecd6f3285c:/home/scripts/chapter4% cc -o sched_nice sched_nice.c
 root@84ecd6f3285c:/home/scripts/chapter4% taskset -c 0 ./sched_nice 100 1
 ```
 The following figures show Process 0 is taken precedence over Process 1.  
+This is because Process 0 has a higher priority than Process 1.  
 ![](nice-1core-2process-processes.png)
 ![](nice-1core-2process-progress.png)
 
